@@ -21,4 +21,5 @@ Kaip keisti tekstą:
 2. Paspausti ant pieštuko viršuj dešinėje
 3. 
 
-![Alt text]({{site.baseurl}}/info1.jpg "Optional title")
+![Info 1](https://github.com/Miauwi/kaiskauda/blob/gh-pages/img/info1.jpg)
+![Info 2](https://github.com/Miauwi/kaiskauda/blob/gh-pages/img/info2.jpg)
