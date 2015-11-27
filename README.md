@@ -20,3 +20,5 @@ Kaip keisti tekstą:
 1. Atsidaryti noritmą puslapį spaudžiant ant jo atitinkamo failo.
 2. Paspausti ant pieštuko viršuj dešinėje
 3. 
+
+![Alt text]({{site.baseurl}}/info1.jpg "Optional title")
