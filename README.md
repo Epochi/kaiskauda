@@ -17,9 +17,10 @@ Apie mus - apiemus.html
 
 Kaip keisti tekstą:
 
-1. Atsidaryti noritmą puslapį spaudžiant ant jo atitinkamo failo.
-2. Paspausti ant pieštuko viršuj dešinėje
-3. 
+1. Atsidaryti noritmą puslapį spaudžiant ant jo atitinkamo failo ir paspausti ant pieštuko viršuj dešinėje
+2. Pakeisti norimą tekstą. pvz. <nekeisti> Keisti čia </nekeisti> 
+3. Trumpai parašykite ką pakeitėte atsiminimui, jei ateityje būtų klaida, bus lengviau atsiminti.
+4. Paspaudus šį mygtuką puslapis atsinaujins
 
 ![Info 1](https://github.com/Miauwi/kaiskauda/blob/gh-pages/img/info1.jpg)
 ![Info 2](https://github.com/Miauwi/kaiskauda/blob/gh-pages/img/info2.jpg)
