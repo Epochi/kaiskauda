@@ -1129,7 +1129,16 @@ section > .row:last-child > .text-box {
 	font-family: "Open Sans";
 }
 
-#am-html {
+
+.images img{
+    max-width:350px;
+    max-height: 250px;
+}
+.images div{
+    display: inline-block;
+}
+
+#am-html,#p-html {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -1145,17 +1154,17 @@ section > .row:last-child > .text-box {
     min-height: inherit;
 }
 
-#am-html .row
+
+#am-html .row, #p-html .row
  {
     width: 100%;
-
 }
 #am-html img {
 	width: 520px;
 	max-width: 100%;
 }
 
-#am-html > .row > .header {
+#am-html > .row > .header ,#p-html  .row > .header {
 	    padding: 20px 0;
     font-size: 1.8em;
     color: #B23748;
