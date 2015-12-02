@@ -3,9 +3,9 @@ window.onload = function() {
     mobileOrDesktop();
 }
 function mobileOrDesktop() {
-    if (screen.width > 800) {
+    if (window.innerWidth > 800) {
         kysInit();
-    } else if (screen.width <= 800) {
+    } else if (window.innerWidth <= 800) {
         if (kysInitState === 1) {
             window.removeEventListener("resize", elementAligning);
             window.removeEventListener("scroll", nav);
@@ -143,13 +143,6 @@ function navExtend(arg1, clr) {
 
 
 
-function removeAllClass(arg1) {
-    var elm = document.querySelectorAll('.' + arg1);
-    [].forEach.call(elm, function(el) {
-        el.classList.remove(arg1);
-    });
-
-}
 
 function elementAligning() {
     screenHeight = window.innerHeight;

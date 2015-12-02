@@ -1,11 +1,12 @@
-window.addEventListener("resize", mobileOrDesktopKS);
-var mobileMenuOn = 0;
-mobileOrDesktopKS();
+    window.addEventListener("resize", mobileOrDesktopKS);
+    var mobileMenuOn = 0;
+    mobileOrDesktopKS();
+
 
 
 //different name so it wouldnt clash with other js
 function mobileOrDesktopKS() {
-    if ((screen.width <= 800) && (mobileMenuOn === 0)) {
+    if ((window.innerWidth <= 800) && (mobileMenuOn === 0)) {
         mobileMenuOn = 1;
         document.getElementById('mobile-menu').addEventListener('click', mobileNav);
         window.addEventListener('hashchange', function() {
@@ -85,4 +86,12 @@ function fixedNav() {
         document.getElementById('header-fixed').classList.toggle("active");
         headerState = 0;
     }
+}
+
+function removeAllClass(arg1) {
+    var elm = document.querySelectorAll('.' + arg1);
+    [].forEach.call(elm, function(el) {
+        el.classList.remove(arg1);
+    });
+
 }
