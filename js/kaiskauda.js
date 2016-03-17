@@ -38,7 +38,7 @@ function mobileNav() {
         //add active-url class to mobile navigations open window menu
         var currUrl = /\/www.kaiskauda.lt\/(.*)\//.exec(document.URL);
         if (currUrl === null) {
-            //document.getElementById('renginiai').classList.add('active-url');
+            document.getElementById('renginiai').classList.add('active-url');
         } else if (currUrl[1] != null) {
             document.getElementById(currUrl[1]).classList.add('active-url');
         }
