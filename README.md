@@ -24,3 +24,12 @@ Kaip keisti tekstą:
 
 ![Info 1](https://github.com/Miauwi/kaiskauda/blob/gh-pages/img/info1.jpg)
 ![Info 2](https://github.com/Miauwi/kaiskauda/blob/gh-pages/img/info2.jpg)
+
+
+Keičiant index
+<br>
+Index.html pakeisti į index_old ir įdėti permalink: /home/
+<br>
+Viduje _includes/header.html pakeisti  "<a href="{{ site.baseurl }}/">" į  "<a href="{{ site.baseurl }}/home">"
+<br>
+renginiai.html duplikuoti ir pakeisti kopijos pavadinimą į index.html. index.html iškomentuoti Renginių archyvą (<li class="nav-tab">... </li> )
