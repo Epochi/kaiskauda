@@ -28,7 +28,7 @@ Kaip keisti tekstą:
 
 Keičiant index
 <br>
-Index.html pakeisti į home/html ir įdėti permalink: /home/
+Index.html pakeisti į home.html ir įdėti permalink: /home/
 <br>
 Viduje _includes/header.html pakeisti  "<a href="{{ site.baseurl }}/">" į  "<a href="{{ site.baseurl }}/home">"
 <br>
